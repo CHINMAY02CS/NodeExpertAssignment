@@ -1,0 +1,29 @@
+.card{
+ margin: auto;
+ margin-top: 30px;
+ margin-bottom: 20px;
+ border-radius: 20px;
+ display: flex;
+ flex-direction: column;
+ padding: auto;
+ /* opacity: 0.11; */
+ /* box-shadow: 0px 0px 37px #0000000D; */
+}
+.card-logo{
+    width: 234px;
+    height: 220px;
+}
+.card-title{
+    font: Roboto;
+    font-size: 48px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-text{
+    font-weight: 400;
+    color: #707070;
+    text-align: left;
+    width: 80%;
+    font: Roboto;
+    font-size: 30px;
+}

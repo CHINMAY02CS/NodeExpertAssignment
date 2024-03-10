@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fff; /* Change to white */
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+.outer{
+  background-color: rgb(0, 255, 47);  
+  padding-bottom: 8%;
+  border-radius: 0 0 80% 95%;
+}
+.gradient__bg {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/60dd5e2567bac94557cf2e0c/eb6a4aff-1d5c-4e9d-8fea-9191d9638aa5/home+bg.png'); /* Replace 'path_to_your_image.jpg' with the path to your image */
+    background-size: cover; /* Adjusts the size of the background image to cover the entire element */
+    background-position: center; /* Centers the background image within the element */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    padding-bottom: 10%;
+    border-radius: 0 0 20% 50%;
+} 
+
+
+.gradient__text {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section__padding {
+    padding: 2rem 3rem;
+}
+
+.section__margin {
+    margin: 2rem 3rem;
+}
+
+.scale-up-center {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .section__padding {
+        padding: 4rem;
+    }
+
+    .section__margin {
+        margin: 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .section__padding {
+        padding: 4rem 2rem;
+    }
+
+    .section__margin {
+        margin: 4rem 2rem;
+    }
+}

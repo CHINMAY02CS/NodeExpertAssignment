@@ -1,0 +1,107 @@
+.gpt3__cta {
+    display: flex;
+    justify-content: center; /* Center the main component */
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 4rem auto; /* Center the component horizontally */
+    border-radius: 1rem;
+    background-color: rgb(53, 53, 183);
+    width: 80%; /* Set width to 50% of the parent container */
+    height: 20%;
+}
+
+.gpt3__header-content__input {
+    display: flex;
+   
+    position: relative; /* Add relative positioning */
+    margin-top: 1rem; /* Add margin to separate the input and button */
+}
+
+.gpt3__header-content__input input {
+    background-color: white; /* Set background color to white */
+    color: #ffffff; /* Set text color */
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    flex: 1; /* Fill the available space */
+    margin-right: 1rem; /* Add space between input and button */
+    width: 50%; /* Fill the available width */
+}
+
+.rounded-button {
+    background-color: #ffcc00;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+.gpt3__header-content__input input::placeholder {
+    color: #d5d5d5; /* Set placeholder color to greyish */
+}
+
+.gpt3__header-content__input button {
+    background: #ffffff;
+    border-radius: 40px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(101, 45, 45);
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute; /* Position button absolutely */
+    right: 0; /* Align button to the right */
+    top: 50%; /* Align button vertically in the middle */
+    transform: translateY(-50%); /* Center button vertically */
+}
+
+.gpt3__cta-content p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    display: flex;
+    width: 50%;
+    font-size: 12px;
+    line-height: 30px;
+    color: #efefef;
+}
+
+.gpt3__cta-content h3 {
+    font-family: var(--font-family);
+    font-weight: 800px;
+    font-size: 24px;
+    line-height: 45px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 650px) {
+    .gpt3__cta {
+        flex-direction: column;
+    }
+
+    .gpt3__cta-button {
+        margin: 2rem 0 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__cta {
+        margin: 4rem 2rem;
+    }
+
+    .gpt3__cta-content h3 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .gpt3__cta-button button {
+        font-size: 14px;
+        line-height: 28px;
+    }
+}

@@ -1,0 +1,135 @@
+.feedback-title {
+    color: #000000;
+    font-size: 36px; /* Decrease font size */
+    margin-left: 150px;
+    margin-right: 160px;
+    margin-top: 50px; /* Decrease top margin */
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.manimg{
+    margin: 0%;
+}
+.feedback-subtitle {
+    margin-left: 150px;
+    margin-right: 160px;
+    color: #707070;
+    text-transform: capitalize;
+    margin-top: 20px;
+    font-size: 18px; /* Decrease font size */
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+}
+
+.feedback-upercontainer {
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.arrow-btn {
+    display: flex;
+    gap: 10px; /* Decrease gap */
+    margin: 50px 150px auto auto; /* Adjust margins */
+    padding-left: 10px; /* Adjust padding */
+    border-style: none;
+    background-color: #F3F3F3;
+    width: 180px; /* Decrease width */
+    height: 25%;
+    font-size: 20px; /* Decrease font size */
+    border-radius: 10%;
+    align-items: center;
+    color: #707070; /* Set text color to greyish */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.arrow-btn svg {
+    color: rgb(0, 0, 0); /* Set the color of the arrow to white */
+}
+.feedback-card {
+    display: flex;
+    flex-direction: row;
+    background-color: #EFEFFE;
+    margin: 30px 150px; /* Adjust margins */
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px; /* Add padding */
+}
+
+.feedback-rightcontainer {
+    margin-left: 20px; /* Adjust margin */
+    background-color: #EFEFFE;
+    display: flex; /* Add display flex */
+    flex-direction: column; /* Set flex direction to column */
+    justify-content: center; /* Vertically center content */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.person-feedback {
+    background-color: #EFEFFE;
+    font-size: 16px; /* Decrease font size */
+    color: #222D39;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px auto; /* Adjust margin */
+    padding: 10px; /* Add padding */
+}
+
+.peson-name {
+    background-color: #EFEFFE;
+    font-size: 15px; /* Decrease font size */
+    color: #000000;
+    margin-bottom: 5px; /* Decrease margin */
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2%; /* Add padding */
+}
+
+
+.person-detail, span {
+    background-color: #EFEFFE;
+    font-size: 14px; /* Decrease font size */
+    color: #000000;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2%;
+    padding-right: 5%;
+}
+
+.three{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.span {
+    background-color: #EFEFFE;
+    font-size: 14px; /* Decrease font size */
+    color: #000000;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    background-color: #EFEFFE;
+    font-size: 16px;
+    color: #333697;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.stars{
+    background-color: #EFEFFE;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding-left: 5%;
+    padding-right: 5%;
+   
+}
+.star{
+    background-color: #EFEFFE;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+.image-feed{
+    height: 40px;
+    width: 40px;
+}

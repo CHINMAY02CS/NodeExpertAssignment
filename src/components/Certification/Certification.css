@@ -1,0 +1,64 @@
+.certification-title {
+    text-align: center;
+    letter-spacing: 0px;
+    color: #000000;
+    font-size: 34px; /* Decrease font size */
+    width: 50%;
+    margin: auto;
+    margin-top: 50px; /* Decrease top margin */
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif; /* Add font-family */
+    margin-bottom: 2%;
+}
+
+.certification-container{
+    padding-bottom: 8%;
+    padding-top: 8%;
+}
+
+.certification-subtitle {
+    text-align: center;
+    letter-spacing: 0px;
+    color: #707070;
+    text-transform: capitalize;
+    margin: auto;
+    margin-top: 10px; /* Decrease top margin */
+    width: 50%;
+    font-size: 18px; /* Decrease font size */
+    font-weight: 10;
+    font-family: Arial, Helvetica, sans-serif; /* Add font-family */
+    margin-bottom: 5%;
+}
+
+.certification-cards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    gap: 90px; /* Adjust gap between cards */
+    margin: auto;
+    justify-content: center;
+}
+
+.icon-card {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px; /* Decrease top margin */
+    margin-bottom: 50px; /* Decrease bottom margin */
+}
+
+.text-below-icon {
+    margin-top: 10px; /* Decrease top margin */
+}
+
+.number {
+    font-size: 24px; /* Decrease font size */
+    color: #1453FF;
+    font-weight: 700; /* Set font weight */
+    font-family: Arial, Helvetica, sans-serif; /* Add font-family */
+}
+
+.text {
+    font-size: 18px; /* Decrease font size */
+    font-weight: 400; /* Set font weight */
+    font-family: Arial, Helvetica, sans-serif; /* Add font-family */
+}
