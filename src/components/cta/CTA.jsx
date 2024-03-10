@@ -14,7 +14,6 @@ const CTA = () => {
           <button type="button" className="rounded-button">
           Send
         </button>
-       
       </div>
     </div>
   );
